@@ -86,7 +86,14 @@ button{
     border-radius:5px;
     color:white;
     font-weight:700;
-   padding:15px 90px;
+    height:40px;
+    width:75%;
+    transition:all ease 300ms;
+}
+button:hover{
+    cursor: pointer;
+    outline:2px solid white;
+    outline-offset:-7px;
 }
 span{
     font-size:30px;
